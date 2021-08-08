@@ -1,0 +1,13 @@
+.venv
+.vscode
+__pycache__
+*.pt
+*.tar.gz
+*.tsv
+*.txt
+*.npy
+BN_GLOVE
+data
+bangla_datasets
+saved
+temp
