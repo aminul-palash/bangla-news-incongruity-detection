@@ -7,7 +7,6 @@ __pycache__
 *.txt
 *.npy
 BN_GLOVE
-data
 bangla_datasets
 saved
 temp
