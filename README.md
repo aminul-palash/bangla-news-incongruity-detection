@@ -59,8 +59,6 @@ CUDA = format_cuda_version(CUDA_version)
  - PyTorch 1.2.0
  - PyTorch Geometric 1.3.2
  - GloVe word embeddings
-
-## Installation
 ```
 pip install numpy==1.17.2
 pip install scikit-learn==0.21.3
