@@ -112,6 +112,6 @@ python inference.py --model_path 'saved/ckpt_ghde_2021-08-05_11 09 48.476392.pt'
 ## Evaluation graph
 Validation and training loss (left), validation accuracy for paragraph and pocument (right).
 <p float="left">
-  <img src="data/loss.png" width=190 />
-  <img src="data/accuracy.png" width=190 />  
+  <img src="data/loss.png" width=300 />
+  <img src="data/accuracy.png" width=300 />  
 </p>
