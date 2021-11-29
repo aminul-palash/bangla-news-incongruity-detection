@@ -74,7 +74,7 @@ pip install torch-geometric==1.3.2
 Bangla news dataset collected from this [link](https://www.kaggle.com/furcifer/bangla-newspaper-dataset).
 
 ## Data Generation
-Follow the data generation [notebook](data_get/data_gen.ipynb) file to format data from raw news data.
+Follow the data generation [notebook](data_get/data_gen.ipynb) file to format data from raw news data and pretrained word embedding [glove](https://www.kaggle.com/aminulpalash/bn-glove840b300d) model.
  - example congrent and incongrent dataset format
  ```
  column names = ['id', 'headline', 'body', 'label', 'fake_para_len', 'fake_para_index', 'fake_type']
