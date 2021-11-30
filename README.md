@@ -74,7 +74,7 @@ pip install torch-geometric==1.3.2
 Bangla news dataset collected from this [link](https://www.kaggle.com/furcifer/bangla-newspaper-dataset).
 
 ## Data Generation
-Follow the data generation [notebook](data_get/data_gen.ipynb) file to format data from raw news data and pretrained word embedding [glove](https://www.kaggle.com/aminulpalash/bn-glove840b300d) model.
+Follow the data generation [notebook](data_get/data_gen.ipynb) file to format data from raw news data and pretrained word embedding [glove](https://www.kaggle.com/aminulpalash/bn-glove840b300d) model. Preprocessed dataset can be download from [here](https://www.kaggle.com/aminulpalash/bangla-news-incongruity-detection)
  - example congrent and incongrent dataset format
  ```
  column names = ['id', 'headline', 'body', 'label', 'fake_para_len', 'fake_para_index', 'fake_type']
@@ -82,8 +82,6 @@ Follow the data generation [notebook](data_get/data_gen.ipynb) file to format da
  * label = 1 when sample is incongruent
  * label = 0 when sample is congruent
  * fake para index: contains the paragraph index of the news that is inconguent. [0 index]
-
-- Preprocessed dataset can be download from [here](https://www.kaggle.com/aminulpalash/bangla-news-incongruity-detection)
 
 ## Preprocess
 ```
