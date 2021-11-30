@@ -83,7 +83,7 @@ Follow the data generation [notebook](data_get/data_gen.ipynb) file to format da
  * label = 0 when sample is congruent
  * fake para index: contains the paragraph index of the news that is inconguent. [0 index]
 
-* Preprocessed dataset can be download from [here](https://www.kaggle.com/aminulpalash/bangla-news-incongruity-detection)
+- Preprocessed dataset can be download from [here](https://www.kaggle.com/aminulpalash/bangla-news-incongruity-detection)
 
 ## Preprocess
 ```
